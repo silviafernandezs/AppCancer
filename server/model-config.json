@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": []
+  },
+  "CentroSalud": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "Imagen": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "Publicacion": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "PublicacionSuscriptor": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "Suscriptor": {
+    "dataSource": "mysqlDs",
+    "public": true
+  },
+  "TipoPublicacion": {
+    "dataSource": "mysqlDs",
+    "public": true
+  }
+}
